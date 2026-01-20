@@ -4,11 +4,6 @@ A tiny, focused library to **extract market events from Limit Order Book (LOB) s
 It transforms exchange-style NDJSON (newline delimited JSON) files containing `snapshot` and `delta`
 messages into structured "market events" (limit adds/cancels, and market buys/sells) and a mid-price time series.
 
-This repo is set up to be published on GitHub as a minimal research utility. It contains:
-- a Python package `lob_event_extractor` with a single `LOBEventExtractor` and convenience functions,
-- `README.md` with detailed explanation of the algorithm and API,
-- MIT license.
-
 ---
 
 ## Why this library? (short)
