@@ -56,12 +56,5 @@ for idx, events, mid_price in parse_file("2025-10-05_SOLUSDT_ob200.data", max_de
 - `parse_file(path, max_depth=50)` - generator yielding `(index, list_of_events, mid_price)` whenever mid-price changes.
 - `infer_events_from_lines(lines)` - convenience that takes an iterable of JSON-lines and returns `(events, mid_prices)` aggregated.
 
-## Development / Publishing
-- License: MIT (included)
-- Tests: none included by default; recommended to add pytest-based tests for your exact feed format
-- Publishing: just push to GitHub. For PyPI packaging add `setup.cfg`/`pyproject.toml` if desired.
-
----
-
 ## License
 MIT
